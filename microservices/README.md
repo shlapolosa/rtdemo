@@ -27,3 +27,4 @@ spec:
 - rtdemo-worker (python/fastapi)
 - rtdemo-ingest (python/fastapi)
 - rtdemo-ingest (python/fastapi)
+- rtdemo-worker (python/fastapi)

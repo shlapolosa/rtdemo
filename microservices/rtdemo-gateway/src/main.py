@@ -2,12 +2,12 @@
 agent_common.realtime_fastapi."""
 import os
 from agent_common.realtime_fastapi import create_realtime_agent_app
-from agent_common.realtime_agent import RealtimeAgent
+from agent_common.realtime_agent import GenericRealtimeAgent
 
 SERVICE_NAME = os.getenv("WEBSERVICE_NAME", os.getenv("REALTIME_PLATFORM_NAME", "realtime-service"))
 
 app = create_realtime_agent_app(
-    agent_class=RealtimeAgent,
+    agent_class=GenericRealtimeAgent,
     service_name=SERVICE_NAME,
     description="RT-1 realtime websocket+kafka service",
     endpoints=[],

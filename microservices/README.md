@@ -24,5 +24,3 @@ spec:
 ## Current Services
 
 - (Services will be listed here as they are added)
-- rtdemo-ingest (python/fastapi)
-- rtdemo-ingest (python/fastapi)

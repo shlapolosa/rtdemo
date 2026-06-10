@@ -26,3 +26,4 @@ spec:
 - (Services will be listed here as they are added)
 - rtdemo-worker (python/fastapi)
 - rtdemo-worker (python/fastapi)
+- rtdemo-ingest (python/fastapi)

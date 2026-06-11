@@ -27,3 +27,4 @@ spec:
 - rtdemo-ingest (python/fastapi)
 - rtdemo-gateway (python/fastapi)
 - rtdemo-worker (python/fastapi)
+- rtdemo-gateway (python/fastapi)

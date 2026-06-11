@@ -1,5 +1,6 @@
 """RT-1 realtime-service entrypoint (generated). Websocket + Kafka over
-agent_common.realtime_fastapi."""
+agent_common.realtime_fastapi. Topics discovered from CONSUME_*/PRODUCE_*/TOPIC_*
+env injected by the realtime-service CD + <realtime>-conn secret."""
 import os
 from agent_common.realtime_fastapi import create_realtime_agent_app
 from agent_common.realtime_agent import GenericRealtimeAgent
